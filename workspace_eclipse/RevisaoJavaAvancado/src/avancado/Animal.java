@@ -5,7 +5,7 @@ package avancado;
  * @since 03.04.2023
  */
 
-public class Animal {
+public class Animal implements Comparable<Animal>{
 
 	private Long id;
 	private String nome;
@@ -20,5 +20,10 @@ public class Animal {
 	
 	public String getNome() {
 		return nome;
+	}
+	
+	@Override
+	public int compareTo(Animal that) {
+		return this.nome.compareTo(that.nome);
 	}
 }
