@@ -1,12 +1,12 @@
 package singleton;
 
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
 /*
  * @autor dimitri.leone
  * @since 16.05.2023
  */
-
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
 
 class LogManagerTest {
 
